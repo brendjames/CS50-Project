@@ -1,5 +1,5 @@
 import os
-
+import csv
 for dirname, _, filenames in os.walk('/kaggle/input'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
@@ -11,7 +11,7 @@ import seaborn as sns
 import plotly.express as px
 import plotly.io as pio
 
-df = pd.read_csv('C:/Users/btran/Downloads/Python/project/Project/Project/mass_shootings.csv')
+df = pd.read_csv('https://storage.googleapis.com/kagglesdsdata/datasets/2328589/4015443/History_of_Mass_Shootings_in_the_USA.csv?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20220807%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220807T115535Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=3a363971b64ff7c66cdb8d9488a090910612a2b82f034e3006eef972494b1e880c20ac422e01108f6e45ac3b873ec556b2a375cad158e5c25d7dcbf732d5a11c1bb28a35e24f01e412d701c53018f1bf79fb0be9ae085ce98b0e9e256a76a9801bb0c51c6f6cab4ea404690c85b44b7d2d692da431274062e1bad7f6d5869265361bea13745be4f964f4fe2c764f05f7b4d5c59eeca9ad6d55b9e0e0a16a34ec953c853d92577782870507de9daa353c92d5ddefced6bb28c8ad52ff1527a21b65e50ef48067fda2aa579d247bb922eda053d05fa4ebf0c2fd9e864b63629f8a8b2568ce6da605c3bcaf5e0f711f8e0f01f38401e66d2da4685ad0643d50c95e')
 # The dataset contains a list of all the mass shootings from 1924 to 2022
 
 # Date: Date of the shooting
