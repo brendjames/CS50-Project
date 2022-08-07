@@ -35,8 +35,7 @@ from pygments.lexers import go
 from wordcloud import WordCloud
 
 # Load the data
-df = pd.read_csv('C:/Users/btran/Downloads/Python/project/Project/Project/gun-violence-data_01-2013_03'
-                              '-2018.csv')
+df = pd.read_csv('https://storage.googleapis.com/kaggle-data-sets/21619/27807/compressed/gun-violence-data_01-2013_03-2018.csv.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20220807%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220807T115913Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=6883ef767f4e53529482c3105dc894cf77fa717a7ed4a158087266196aa5612fd103b28c5fa0669f0b206be294c370caf76539d665f5acf56e5bc2a24bda0740cda48a6fb0fc7863be8c62142f2ab0a97631e4e10a26aece31a5d4d0b95d554c8a1498b5b15c41d858fc330c2b37076c8a2436efaccc993b783fe154f8ee91e6361d8bac42b94a4b26c0267566ff604ac8f6fb9bb8a01b559a99398d992b6eada062a1dece51118963c0b4a217d7fe8a9421a2f14d315f397c37fbaa10b4f6b43c1018bbaf6151017bddc6f68f7aebc3ae325c1826edd4a14095709f808957625722f0b38add68e9acbde974c0f33f2892df1a2b22245054d94b4e7d5e23268b')
 # Parse the date and set the index
 df.date = pd.to_datetime(df.date)
 df.set_index('date', inplace=True)
