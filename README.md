@@ -1,4 +1,4 @@
-##Gun Crime Stats Of America
+####Gun Crime Stats Of America
 #### Video Demo:  https://youtu.be/p2F35Q3JYjM
 #### Description:
 After hearing about the amount of gun crimes committed in America, I felt as thought I needed to investigate for myself. I took some data from Kaggle.com, and used it to make an analysis as I want to get into data analysis. Using the data I had found, I created some graphs and plots to visualise the data. I asked myself, have these shootings always been so regular? Are there any differences in genders? Which are the top cities and states for gun crimes, and do they correlate? Is there any sign that these shootings will decline?
