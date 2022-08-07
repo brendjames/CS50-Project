@@ -8,6 +8,7 @@ I firstly started off by asking questions,
 2. Is there any differences between genders and or age that can be used to identify trends?
 3. Which are the top 3 states for these crimes.
 4. Do the top 3 states match the top 3 cities?
+
  
 From there I needed to find some real world data to look through.
 I started with the History of Mass Shootings 1920 - 2022 that I found on Kaggle. 
@@ -41,3 +42,6 @@ Why are more funds not being allocated into the massive problem?
 The gun laws need to change, to at least check if the person has a mental issue before purchasing a weapon
  
 Joe Biden I'm looking at you!
+
+
+[Mass Shootings In USA 3.pdf](https://github.com/brendjames/CS50-Project/files/9276938/Mass.Shootings.In.USA.3.pdf)
